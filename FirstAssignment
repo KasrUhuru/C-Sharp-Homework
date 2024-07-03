@@ -1,0 +1,22 @@
+// See https://aka.ms/new-console-template for more information
+
+using Microsoft.VisualBasic;
+using System;
+
+namespace CSC205
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            const string myName = "Matias Gabriel Rivera";
+            System.Console.WriteLine($"Hello, my name is {myName}");
+
+            System.Console.WriteLine("Check out this cool trick:");
+            System.Console.WriteLine(" ");
+            System.Console.WriteLine("  ^  ");
+            System.Console.WriteLine(" ^^^ ");
+            System.Console.WriteLine("^^^^^");
+        }
+    }
+}
